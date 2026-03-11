@@ -1,8 +1,8 @@
-**DL Background ve Autoencoder Ödevi: Siber Güvenlik Uygulamaları**
+#**DL Background ve Autoencoder Ödevi: Siber Güvenlik Uygulamaları**##
 
 Bu proje, derin öğrenme (Deep Learning) temelleri ve Autoencoder mimarileri kullanılarak ağ tabanlı bir Saldırı Tespit Sistemi (IDS) geliştirilmesini konu alan iki aşamalı bir çalışmadır. Proje kapsamında siber saldırıları tespit etmek için hem denetimli (supervised) hem de denetimsiz (unsupervised) yaklaşımlar NSL-KDD veri seti üzerinde test edilmiştir.
 
-__🛡️ Proje 1: Derin Öğrenme Tabanlı Sınıflandırma (CNN & AE-CNN)__
+##__🛡️ Proje 1: Derin Öğrenme Tabanlı Sınıflandırma (CNN & AE-CNN)__
 Bu aşamada, ağ trafiğini "Normal" veya "Saldırı" olarak sınıflandırmak için iki farklı mimari karşılaştırılmıştır:
 
 Standart CNN: 119 öznitelikten oluşan ham veriyi doğrudan işleyen 1 boyutlu evrişimli sinir ağı.
@@ -14,7 +14,7 @@ Aşırı Öğrenme Kontrolü: Eğitim ve doğrulama grafiklerinin paralelliği, 
 
 Boyut İndirgeme: Autoencoder kullanımı sayesinde veri boyutu ciddi oranda düşürülmesine rağmen, saldırı yakalama başarısının (Recall) arttığı gözlemlenmiştir.
 
-__🔍 Proje 2: VAE ile Anomali Tespiti (Anomalous Traffic Detection)__
+##__🔍 Proje 2: VAE ile Anomali Tespiti (Anomalous Traffic Detection)__
 İkinci aşamada, saldırıların türünü bilmeye gerek duymayan, sadece "normal" davranışı öğrenen Variational Autoencoder (VAE) mimarisi kullanılmıştır:
 
 Çalışma Mantığı: Model sadece normal ağ trafiği ile eğitilerek sistemin "normal" imzasını bir olasılık dağılımı olarak öğrenmiştir.
@@ -28,21 +28,22 @@ Precision: 0.92 (Düşük yanlış alarm oranı).
 
 Eşik Değeri (Threshold): Eğitim verisinin hata dağılımının %95 persentili kullanılarak belirlenmiştir.
 
-__🛠️ Kullanılan Teknolojiler__
+###__🛠️ Kullanılan Teknolojiler__
 Frameworkler: PyTorch, TensorFlow / Keras.
 
 Veri Seti: NSL-KDD.
 
 Kütüphaneler: NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn.
 
-__📁 Repo Yapısı__
+###__📁 Repo Yapısı__
 /Homework-1/: CNN ve AE-CNN kodları, grafikler ve metrik analizleri.
 
 /Homework-2/: VAE anomali tespiti, hata dağılım histogramı ve ROC eğrisi.
 
 /data/: Veri seti yükleme talimatları.
 
-Geliştiriciler:
+###__Geliştiriciler:__
+
 Şevval Ayça Çerence - 152120211128
 
 Emre Alaybeyoğlu - 152120211160
