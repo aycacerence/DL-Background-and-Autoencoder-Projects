@@ -1,4 +1,4 @@
-#**DL Background ve Autoencoder Ödevi: Siber Güvenlik Uygulamaları**##
+#**DL Background ve Autoencoder Ödevi: Siber Güvenlik Uygulamaları**
 
 Bu proje, derin öğrenme (Deep Learning) temelleri ve Autoencoder mimarileri kullanılarak ağ tabanlı bir Saldırı Tespit Sistemi (IDS) geliştirilmesini konu alan iki aşamalı bir çalışmadır. Proje kapsamında siber saldırıları tespit etmek için hem denetimli (supervised) hem de denetimsiz (unsupervised) yaklaşımlar NSL-KDD veri seti üzerinde test edilmiştir.
 
